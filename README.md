@@ -1,2 +1,2 @@
-# Obnixe.github.io
+# obnixe.github.io
 A project-website!
