@@ -1,7 +1,6 @@
 h1{
     color:white;
     border-color:black;
-    border-width:1px;
+    border-width:10px;
     font-family:times !important;
-    position: 100px;
 }
