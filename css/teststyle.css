@@ -3,8 +3,8 @@ body{
     font-family: Optima;
 }
 h1 {
-    line-height: 35%;
-    font-size: 120px;
+    line-height: 28%;
+    font-size: 96px;
     font-variant: small-caps;
     text-align: center;
     color: rgb(234, 211, 30);
@@ -12,43 +12,43 @@ h1 {
 }
 h2{
     color:#ab4040;
-    font-size: 60px;
+    font-size: 48px;
     text-align: center;
 }
 nav {
     text-align: justify;
-    font-size: 35px;
+    font-size: 28px;
     background: #ffffff21;
 }
 a {
     color: #ab4040;
     text-decoration: solid;
     font-weight: 600;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 ul {
     color: white;
     list-style: lower-roman;
     list-style-position: inside;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 
 }
 summary{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     -webkit-text-stroke: 1px #fffff8;
     text-align: center;
 }
 img{
-    width:3%;
+    width:2.6%;
 }
 small{
-    font-size: 12px;
+    font-size: 10px;
 }
