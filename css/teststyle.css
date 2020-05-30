@@ -1,38 +1,73 @@
 body{
     background-color: #2b1131;
-    background-image: url(https://obnixe.github.io/imgs/bck.png);
+    background-image: url(../imgs/bck.png);
     background-size: 165%;
     font-family: Optima;
 }
 h1 {
-    line-height: 28%;
-    font-size: 96px;
+    display: block;
+    height: auto;
+    line-height: 54%;
     font-variant: small-caps;
     text-align: center;
-    color: rgb(234, 211, 30);
-    font-family: Optima;
+    font-size: 112px;
+    background: linear-gradient(to right, #eed0d0, #520000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px rgba(47, 0, 0, 0.8);
+    padding: 12px;
+    margin: 20px;
 }
 h2{
-    color:#ab4040;
-    font-size: 48px;
+    color: #e88b8b;
+    font-size: 200%;
     text-align: center;
+    margin: 15px;
 }
-nav {
-    text-align: justify;
+section.main{
+    display: block;
+}
+section.subs{
+    overflow: auto;
+    margin: 4% 0.43%;
+    display: inline-block;
+    float: left;
+    width: 31.3%;
+    height: 400px;
+    border: dotted white;
+}
+nav{
+    text-align: center;
     font-size: 28px;
     background: #ffffff21;
+    padding: 5px;
+
 }
-a {
+nav a{
+    display: inline-block;
+    color: #890404;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: outset black;
+    background-image:
+    linear-gradient(to bottom, rgb(212, 202, 136) 0%, rgb(153, 114, 54) 100%);
+
+}
+nav a:hover{
+    color: rgb(212, 202, 136);
+    background-image:
+            linear-gradient(to bottom, rgb(227, 80, 80) 0%, rgb(135, 3, 3) 100%);
+}
+a{
     color: #ab4040;
     text-decoration: solid;
     font-weight: 600;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 ul {
     color: white;
-    list-style: lower-roman;
-    list-style-position: inside;
+    list-style: lower-roman inside;
     font-size: 20px;
     text-align: center;
 }
@@ -42,15 +77,28 @@ p{
     text-align: center;
 
 }
+div{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
 summary{
     color: white;
-    font-size: 20px;
-    -webkit-text-stroke: 1px #fffff8;
+    font-size: 14px;
+    text-align: center;
+}
+details{
+    font-size: 12px;
+    color:white;
     text-align: center;
 }
 img{
     width:2.6%;
 }
-small{
-    font-size: 10px;
+footer {
+    display: block;
+    clear: left;
+    text-align: center;
+    color:white;
+    font-size: 15px;
 }
