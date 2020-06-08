@@ -1,0 +1,166 @@
+body{
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(126, 146, 175) 100%);
+    font-family: Optima, Arial;
+    padding: 1%;
+    margin: 0.5%;
+}
+header{
+    background-color: #000000;
+    background-image: url("../images/flywheel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 3%;
+    border: solid #122647;
+    margin-bottom: 4%;
+}
+h1{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 112px;
+    color: #122647;
+    margin: 5px;
+    -webkit-text-stroke: white thin;
+}
+aside.left{
+    display: inline-block;
+    position: sticky;
+    float: left;
+    left: 25px;
+    top: 30px;
+    width: 16%;
+    background-image: linear-gradient(to bottom, rgb(97, 134, 133) 0%, rgb(68, 87, 149) 100%);
+    border: solid #122647;
+    border-radius: 0% 15% 15% 0%;
+}
+aside.left img{
+    display: block;
+    width: 90%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    transition: all 0.3s linear, padding 0.01s linear;
+}
+aside.left img:hover{
+    border: solid white 3px;
+    padding: 0;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 100%;
+    border-radius: 12px;
+}
+h2{
+    text-align: right;
+    font-size: 50px;
+    margin: 2% 1%;
+    text-decoration: underline;
+}
+section{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #618685;
+    color: #fefbd8;
+    font-size: 18px;
+    border: solid #122647;
+    border-radius: 2%;
+    padding: 2%;
+}
+a{
+    text-decoration: solid;
+    color: #122647;
+    font-variant: small-caps;
+    transition: all 0.3s linear;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:focus{
+    background-color: rgba(255, 255, 255, 0.45);
+}
+nav{
+    text-align: center;
+    font-size: 200%;
+}
+nav a{
+    display: inline-block;
+    border: solid white thin;
+    border-radius: 10%;
+    padding: 0.5%;
+    background-color: rgba(97, 134, 133, 0.7);
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: all 0.3s linear;
+}
+nav a.active{
+    background-color: rgba(25, 42, 42, 0.7);
+}
+nav a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(97, 134, 133);
+    transform: matrix(1.1,0,0,1.1,0,20);
+}
+nav a:focus{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(97, 134, 133);
+    transform:scale(1.1);
+    border: solid black thick;
+}
+div{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.58);
+}
+span.two{
+    text-decoration: underline;
+}
+span.two:hover::after{
+    content: " (International Olympic Committee)";
+}
+table{
+    border: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    background: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+tr td{
+    opacity: 0.8;
+}
+tr:hover td{
+    opacity: 1;
+}
+th{
+    font-family: Impact, Arial;
+    font-size: 36px;
+    color: white;
+    background-color: rgb(28, 25, 25);
+    border-radius: 10px 10px 0 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid #bfd3d7;
+    border-width: 2px 2px 8px 2px;
+}
+th:first-child{
+    text-align: left;
+}
+td{
+    font-family: "Lucida Sans Unicode", Arial;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e34646;
+    margin:0;
+    color: black;
+}
+td:first-child{
+    text-align: left;
+    background-image: linear-gradient(to right, #cee787, #e34646);
+}
+td:last-child{
+    background-image: linear-gradient(to left, #4e4ed2, #e34646);
+}

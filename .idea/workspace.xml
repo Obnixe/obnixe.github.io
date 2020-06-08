@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week2/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week4/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,7 +46,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week4/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week4/images" />
+      <recent name="$PROJECT_DIR$/week4" />
       <recent name="$PROJECT_DIR$/week2/css" />
       <recent name="$PROJECT_DIR$/week2" />
     </key>
@@ -73,7 +78,10 @@
       <updated>1590700139828</updated>
       <workItem from="1590700142331" duration="546000" />
       <workItem from="1590747700135" duration="6569000" />
-      <workItem from="1590832526162" duration="5570000" />
+      <workItem from="1590832526162" duration="5738000" />
+      <workItem from="1591007930944" duration="6076000" />
+      <workItem from="1591086318812" duration="1150000" />
+      <workItem from="1591436269546" duration="4886000" />
     </task>
     <servers />
   </component>
@@ -90,8 +98,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="590" y="228" key="#CSS" timestamp="1591459536280">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="590" y="228" key="#CSS/0.0.1680.1050@0.0.1680.1050" timestamp="1591459536280" />
     <state width="1659" height="329" key="GridCell.Tab.0.bottom" timestamp="1590757171316">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
