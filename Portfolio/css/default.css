@@ -15,9 +15,10 @@ body{
 	font-weight: 300;
 	transition: background ease 1s;
 }
-#preload{
+div#preload{
 	visibility: hidden;
 	position: absolute;
+	right:9999px;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Prata', serif;
