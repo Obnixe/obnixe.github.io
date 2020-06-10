@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/cbb0ce0883.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+    <link rel="icon" href="icons/logo.png">
+    <link rel="stylesheet" href="css/left-right.css">
     <meta charset="UTF-8">
-    <title>M.J.Michalowski</title>
+    <title>Projects</title>
 </head>
 <body>
+    <script>
+        window.onscroll = function () {
+            howFarScrolled()
+            showOnScroll("navbar", 80, 4000, "show", "hide")
+            showOnScroll("showMore", 20, 4000, "hide", "show")
+        }
+    </script>
+    <div id="socialMedia">
+        <a href="https://www.linkedin.com/in/marek-j-michalowski" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        &nbsp;&nbsp;
+        <a href="https://www.snapchat.com/add/mrkmi" target="_blank"><i class="fab fa-snapchat-square fa-3x"></i></a>
+        &nbsp;&nbsp;
+        <a href="https://wa.me/447908878831" target="_blank"><i class="fab fa-whatsapp-square fa-3x"></i></a><br>
+        <span id="counter">Scrolled Lines Here</span>
+    </div>
+    <header>
+        <h1>Marek Józef Michałowski</h1>
+    </header>
+
+    <a href="python.html"><div class="banner" id="left"><h1>Python</h1></div></a>
+    <a href="webdev.html"><div class="banner" id="right"><h1>WebDev</h1></div></a>
+    <aside id="showMore" class="show">Keep scrolling for more...</aside>
+    <nav id="navbar" class="hide">
+        <ul>
+            <li><a class="navigation" href="index.html">Home</a></li>
+            <li><a class="navigation current" href="projects.html">Projects</a></li>
+            <li><a class="navigation" href="aboutme.html">About Me</a></li>
+            <li><a class="navigation" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
 </body>
 </html>

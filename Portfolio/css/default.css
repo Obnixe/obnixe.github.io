@@ -6,11 +6,6 @@ body{
 	margin-top: 0;
 	height: 4000px;
 	background-color: black;
-	/*
-	background-image: url("../imgs/web-design.jpg");
-	background-size: 100%;
-	background-attachment: fixed;
-	 */
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	transition: background ease 1s;
@@ -86,7 +81,7 @@ nav ul li {
 nav ul li ul {
 	position: absolute;
 	margin: 0;
-	left: -84px;
+	left: -59px;
 	width: inherit;
 	display: block;
 	visibility: hidden;
@@ -106,14 +101,19 @@ nav li ul li{
 }
 .initialNav a{
 	font-size: 64px;
-	padding: 12px;
+	padding: 8px 12px 12px 12px;
 	width: 280px;
 	height: 70px;
 	background-image: radial-gradient(rgba(72, 85, 99, 0.3), rgba(41, 50, 60, 0.3));
 	color: white;
+	border: solid black;
+	border-width: 5px 0 0 0;
 	transition: all ease 1.0s;
 }
 .initialNav li ul a{
+	width: 230px;
+	height: 40px;
+	border-width: 3px 0 0 0;
 	font-size: 28px;
 	transition: all ease 1.0s;
 }
@@ -124,10 +124,15 @@ nav li ul li{
 	padding: 12px;
 	background-color: rgba(255, 255, 255, 0.8);
 	color: midnightblue;
+	border: solid black;
+	border-width: 3px 0 0 0;
 	transition: all ease 1.0s;
 }
 .newNav li ul a{
-	font-size: 22px;
+	width: 150px;
+	height: 25px;
+	border-width: 1px 0 0 0;
+	font-size: 18px;
 	transition: all ease 1.0s;
 }
 #one, #two{
