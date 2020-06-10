@@ -1,15 +1,19 @@
-function swapOnScrollFrom(elemID, howFar) {
-    if (document.body.scrollTop > howFar || document.documentElement.scrollTop > howFar) {
-        document.getElementById(elemID).className = "hide";
-    } else {
-        document.getElementById(elemID).className = "show";
+function funkyBack(start, end, classImg) {
+    if (document.documentElement.scrollTop > start && document.documentElement.scrollTop < end) {
+        document.body.className = classImg;
+    }
+}
+function howFarScrolled(){
+    if(document.documentElement.scrollTop > 0) {
+        document.getElementById('counter').innerHTML = document.documentElement.scrollTop.toString();
     }
 }
 
-function swapOnScrollTo(elemID, howFar) {
-    if (document.body.scrollTop > howFar || document.documentElement.scrollTop > howFar) {
-        document.getElementById(elemID).className = "show";
-    } else {
-        document.getElementById(elemID).className = "hide";
+function showOnScroll(elemID, start, end, activeClass, disabledClass){
+    if (start < document.documentElement.scrollTop && document.documentElement.scrollTop < end){
+        console.log("XD")
+        document.getElementById(elemID).className = activeClass;
+    } else{
+        document.getElementById(elemID).className = disabledClass;
     }
 }

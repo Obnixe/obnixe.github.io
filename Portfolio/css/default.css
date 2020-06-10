@@ -1,16 +1,26 @@
+.bkg1{background: url("../imgs/web-design.jpg") no-repeat fixed; background-size: cover;}
+.bkg2{background: url("../imgs/code.jpg") no-repeat fixed; background-size: cover;}
+.bkg3{background: url("../imgs/social-media.jpg") no-repeat fixed; background-size: cover;}
 body{
 	margin-top: 0;
 	height: 4000px;
+	background-color: black;
+	/*
 	background-image: url("../imgs/web-design.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
+	 */
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+	transition: background ease 1s;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Prata', serif;
 }
-.fa-linkedin, .fa-snapchat-square, .fa-whatsapp-square{
+span{
+	color: white;
+}
+.fa-linkedin, .fa-snapchat-square, .fa-whatsapp-square, .fa-python, .fa-connectdevelop{
 	color: white;
 }
 header {
@@ -23,6 +33,7 @@ header {
 	position: sticky;
 	top: 15px;
 }
+
 header h1{
 	text-align: right;
 	font-size: 64px;
@@ -45,24 +56,16 @@ nav{
 }
 nav a{
 	text-decoration: none;
-	font-size: 28px;
-	padding: 12px;
 	display: block;
-	width: 150px;
-	height: 30px;
-	border: none black thin;
-	background-image: linear-gradient(to left, rgba(190, 212, 162, 0.6), rgba(85, 132, 79, 0.6));
-	color: antiquewhite;
-	border-radius: 15px;
-}
-.fa-python, fa-connectdevelop{
-	color: antiquewhite;
-}
-nav a:hover{
-	background-image: linear-gradient(to left, rgba(165, 180, 146, 0.9), rgba(46, 78, 42, 0.9));
+	font-weight: 500;
 }
 nav a.current{
-	border: solid #354034 3px;
+	background-image: radial-gradient(rgba(255, 255, 255, 0.75), rgba(131, 132, 135, 0.75));
+	color: rgb(41, 50, 60)
+}
+nav a:hover{
+	background-image: radial-gradient(rgba(72, 85, 99, 0.75), rgba(41, 50, 60, 0.75));
+	color: white;
 }
 nav ul li {
 	list-style-type: none;
@@ -88,12 +91,35 @@ nav li ul{
 li:hover>ul, nav li ul:hover{
 	visibility: visible;
 }
-nav li ul a{
-	font-size: 16px;
-}
 nav li ul li{
 	display: block;
 	margin-bottom: 3px;
+}
+.initialNav a{
+	font-size: 64px;
+	padding: 12px;
+	width: 280px;
+	height: 70px;
+	background-image: radial-gradient(rgba(72, 85, 99, 0.3), rgba(41, 50, 60, 0.3));
+	color: white;
+	transition: all ease 1.0s;
+}
+.initialNav li ul a{
+	font-size: 28px;
+	transition: all ease 1.0s;
+}
+.newNav a{
+	font-size: 38px;
+	width: 200px;
+	height: 45px;
+	padding: 12px;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: midnightblue;
+	transition: all ease 1.0s;
+}
+.newNav li ul a{
+	font-size: 22px;
+	transition: all ease 1.0s;
 }
 #one, #two{
 	display: block;

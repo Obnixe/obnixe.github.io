@@ -8,25 +8,26 @@
     <meta charset="UTF-8">
     <title>M.J.Michalowski</title>
 </head>
-<body>
+<body class="bkg1">
     <div id="socialMedia">
         <a href="https://www.linkedin.com/in/marek-j-michalowski" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
         &nbsp;&nbsp;
         <a href="https://www.snapchat.com/add/mrkmi" target="_blank"><i class="fab fa-snapchat-square fa-3x"></i></a>
         &nbsp;&nbsp;
-        <a href="https://wa.me/447908878831" target="_blank"><i class="fab fa-whatsapp-square fa-3x"></i></a>
+        <a href="https://wa.me/447908878831" target="_blank"><i class="fab fa-whatsapp-square fa-3x"></i></a><br>
+        <span id="counter">Scrolled Lines Here</span>
     </div>
     <header>
         <h1>Marek Józef Michałowski</h1><br>
         <h2>Software and Web Development</h2>
     </header>
-    <nav>
+    <nav id="navbar" class="initialNav">
         <ul>
             <li><a class="navigation current" href="index.html">Home</a></li>
             <li><a class="navigation" href="projects.html">Projects</a>
                 <ul>
-                    <li><a class="navigation" href="python.html"><i class="fab fa-python fa-xs"></i>Python</a></li>
-                    <li><a class="navigation" href="webdev.html"><i class="fab fa-connectdevelop fa-xs"></i>Web Development</a></li>
+                    <li><a class="navigation" href="python.html">Python</a></li>
+                    <li><a class="navigation" href="webdev.html">Web Development</a></li>
                 </ul>
             </li>
             <li><a class="navigation" href="aboutme.html">About Me</a></li>
@@ -43,9 +44,14 @@
             <p>Donec ut tristique orci. Fusce rhoncus, nibh eget viverra molestie, leo urna semper nisi, eu consequat quam nisl eu neque. In vitae viverra lectus. Aliquam id nulla lorem. Donec pretium id tellus vitae ullamcorper. Mauris placerat urna eu quam sollicitudin iaculis. Aliquam feugiat iaculis ante, vel bibendum erat ultricies eget. Etiam placerat dolor sed urna semper, et sagittis erat fermentum. Aliquam elit libero, condimentum vel cursus eget, laoreet nec. </p>
     </div>
     <script>
-        window.onscroll = function() {
-            swapOnScrollFrom("one",1100)
-            swapOnScrollTo("two",1500)
+        window.onscroll = function () {
+            showOnScroll("navbar", 250, 4000, "newNav", "initialNav")
+            showOnScroll("one", 0, 1100, "show", "hide")
+            showOnScroll("two", 1400, 2000, "show", "hide")
+            funkyBack(0, 399, "bkg1")
+            funkyBack(400, 1249, "bkg2")
+            funkyBack(1250, 1999, "bkg3")
+            howFarScrolled()
         };
     </script>
     <div id="two">
