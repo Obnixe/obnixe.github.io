@@ -2,6 +2,7 @@
 .bkg2{background: url("../imgs/code.jpg") no-repeat fixed; background-size: cover;}
 .bkg3{background: url("../imgs/social-media.jpg") no-repeat fixed; background-size: cover;}
 body{
+	overflow: scroll;
 	margin-top: 0;
 	height: 4000px;
 	background-color: black;
@@ -22,6 +23,9 @@ span{
 }
 .fa-linkedin, .fa-snapchat-square, .fa-whatsapp-square, .fa-python, .fa-connectdevelop{
 	color: white;
+}
+.fa-linkedin:hover, .fa-snapchat-square:hover, .fa-whatsapp-square:hover, .fa-python:hover, .fa-connectdevelop:hover{
+	color: #dc5656;
 }
 header {
 	margin-bottom: 250px;
